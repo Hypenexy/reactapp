@@ -7,7 +7,7 @@ interface FilterButtonsProps {
 
 const FilterButtons: React.FC<FilterButtonsProps> = ({ currentFilter, setFilter }) => {
     return (
-        <div>
+        <div className='filter-buttons'>
             <button 
                 onClick={() => setFilter('all')} 
                 className={currentFilter === 'all' ? 'active' : ''}

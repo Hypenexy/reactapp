@@ -13,6 +13,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ item, toggleTodo }) => {
 
     return (
         <div
+            className="todo-item"
             onClick={handleToggle}
             style={{
                 textDecoration: item.completed ? 'line-through' : 'none',

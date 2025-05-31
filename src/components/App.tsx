@@ -31,7 +31,6 @@ const App: React.FC = () => {
 
     return (
         <div>
-            <h1>Todo App</h1>
             <TodoInput addTodo={addTodo} />
             <FilterButtons currentFilter={filter} setFilter={setFilter} />
             <TodoList todos={filteredTodos} toggleTodo={toggleTodo} />

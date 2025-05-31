@@ -19,7 +19,7 @@ const TodoInput: React.FC<TodoInputProps> = ({ addTodo }) => {
     };
 
     return (
-        <div>
+        <div className="todo-input">
             <input
                 type="text"
                 value={inputValue}
